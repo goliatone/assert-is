@@ -1,6 +1,6 @@
 'use strict';
 
-var assert_is = require('../lib/assert-is.js');
+var assert_is = require('../lib/');
 
 /*
   ======== A Handy Little Nodeunit Reference ========
