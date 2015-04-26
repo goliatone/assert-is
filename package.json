@@ -1,0 +1,40 @@
+{
+  "name": "assert-is",
+  "description": "is mixin for assert",
+  "version": "0.1.0",
+  "homepage": "https://github.com/goliatone/assert-is",
+  "author": {
+    "name": "goliatone",
+    "email": "hello@goliatone.com",
+    "url": "http://goliatone.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/goliatone/assert-is.git"
+  },
+  "bugs": {
+    "url": "https://github.com/goliatone/assert-is/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/goliatone/assert-is/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/*_test.js",
+    "dtest": "./node_modules/mocha/bin/mocha test/*_test.js -G -w --require co-mocha --reporter spec --slow 500"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "mocha-clean": "^0.4.0",
+    "mocha-sinon": "^1.1.4",
+    "sinon": "^1.12.2",
+    "chai": "^2.2.0"
+  },
+  "keywords": ["assert"]
+}
