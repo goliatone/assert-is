@@ -1,7 +1,7 @@
 {
   "name": "assert-is",
   "description": "is mixin for assert",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/goliatone/assert-is",
   "author": {
     "name": "goliatone",
@@ -36,5 +36,7 @@
     "sinon": "^1.12.2",
     "chai": "^2.2.0"
   },
-  "keywords": ["assert"]
+  "keywords": [
+    "assert"
+  ]
 }
