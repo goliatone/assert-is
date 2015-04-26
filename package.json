@@ -1,7 +1,7 @@
 {
   "name": "assert-is",
   "description": "is mixin for assert",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "homepage": "https://github.com/goliatone/assert-is",
   "author": {
     "name": "goliatone",
