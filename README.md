@@ -107,13 +107,18 @@ assert.isObject("foo", '"foo" is not an object');
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
-_(Nothing yet)_
+* v0.5.0 Added function callback as last argument
+
+## Roadmap
+- [ ] integrate better [errors][be]
+- [ ] fix how we take arguments by checking `is.x` length
 
 ## License
 Copyright (c) 2015 goliatone  
 Licensed under the MIT license.
 
-https://github.com/tj/better-assert/blob/master/index.js
+
 
 [is]:https://www.npmjs.com/package/is
 [assert]:https://nodejs.org/api/all.html#assert_assert
+[be]:https://github.com/tj/better-assert/blob/master/index.js
